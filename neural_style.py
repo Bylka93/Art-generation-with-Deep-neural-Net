@@ -38,8 +38,6 @@ def gram_matrix(A):
     GA = tf.matmul(A, tf.transpose(A))
     return GA
 # style cost
-# GRADED FUNCTION: compute_layer_style_cost
-
 
 def compute_layer_style_cost(a_S, a_G):
     # Retrieve dimensions from a_G (≈1 line)
